@@ -23,4 +23,4 @@ jobs:
           script: |
             sudo docker pull ramram27/devops-test:latest
             sudo docker rm -f devops-test || true
-            sudo docker run -d -p 4000:4000 --name devops-test ramram27/devops-test:latest
+            sudo docker run -d -p 80:8080 --name devops-test ramram27/devops-test:latest

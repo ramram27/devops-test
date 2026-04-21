@@ -1,10 +1,15 @@
+sudo apt update
+sudo apt install python3 python3-pip -y
+pip3 install requests
+http://localhost:4000/health
+
 1. Cleartrip: Frontend Developer
 
 Job Responsibilities:
 
 ● You must have a good understanding of Javascript, HTML / HTML5, CSS / CSS3.
 ● You must be proficient in ReactJS framework.
-● Good to have experience in ReactNative.
+
 ● Familiarity with state management libraries/frameworks (e.g., Redux) is a plus.
 ● Experience with RESTful APIs and asynchronous programming.
 ● Knowledge of version control systems (e.g., Git).

@@ -6,12 +6,6 @@ const app = express();
 app.use(express.json());
 const port = 3000;
 
-mongoose.connect('mongodb+srv://databaseUser:dWlULBIBApO1wB2X@cluster0.omige7m.mongodb.net/?appName=Cluster0').then(() => {
-    console.log("Connected to MongoDB");
-}).catch(err => {
-    console.error("Error connecting to MongoDB", err);
-});
-
 app.use('/api', productRoutes);
 
 console.log("Server is starting...");
